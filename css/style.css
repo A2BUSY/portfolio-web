@@ -1,0 +1,10 @@
+body {
+    background-size: cover;
+    background-color: #323031;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.text-highlight {
+    color: #6F58C9;
+    animation: highlight 8s linear 0ms infinite both;
+}
