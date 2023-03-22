@@ -1,7 +1,9 @@
+/* Hamburger icon */
 #shownav {
     display: none;
 }
 
+/* Navbar */
 nav {
     margin-top: 1rem;
     display: flex;
