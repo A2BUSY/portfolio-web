@@ -30,3 +30,38 @@ nav a:last-child {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
+
+/* Index Styles */
+#home-introduction {
+    color: #E3EDF2;
+    font-size: 4rem;
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+#home-my-name {
+    font-size: 12rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+#home-image {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#home-description {
+    color: #b5bec6;
+    font-size: 1.5rem;
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+
+.home-grid-container {
+    display: grid;
+    margin-top: 4rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 0.4fr);
+}
