@@ -107,13 +107,16 @@ nav a:last-child {
     from {
         color: #261dce;
     }
+
     35% {
         color: transparent;
         transform: translate(7px, 7px);
     }
+
     65% {
         color: transparent
     }
+
     to {
         color: #261dce;
     }
@@ -123,13 +126,16 @@ nav a:last-child {
     from {
         color: #b51717;
     }
+
     35% {
         color: transparent;
         transform: translate(-7px, -7px);
     }
+
     65% {
         color: transparent;
     }
+
     to {
         color: #b51717;
     }
@@ -139,13 +145,35 @@ nav a:last-child {
     from {
         color: transparent;
     }
+
     25% {
         color: #815eaa
     }
+
     75% {
         color: #815eaa
     }
+
     to {
         color: transparent;
     }
+}
+
+/* Contact page */
+fieldset {
+    width: min(480px, 80%);
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #E3EDF2;
+    color: #E3EDF2;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+legend {
+    font-size: x-large;
 }
