@@ -5,11 +5,19 @@ body {
     background-size: cover;
     background-color: #323031;
     font-family: 'Red Hat Mono', monospace;
+    color: #E3EDF2;
 }
 
 .text-highlight {
     color: #6F58C9;
     animation: highlight 8s linear 0ms infinite both;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @keyframes highlight {

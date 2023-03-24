@@ -213,3 +213,29 @@ button {
 button:hover {
     scale: 120%;
 }
+
+/* Portfolio */
+.project {
+    border: 1px solid #E3EDF2;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.skills {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap: 1rem;
+}
+
+.skills li {
+    border: 1px solid;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* Experience */
+
+/* Site Report */
