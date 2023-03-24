@@ -17,7 +17,6 @@
         <a href="experience.html">Experience</a>
         <a href="sitereport.html">Site Report</a>
     </nav>
-    <h1>Contact</h1>
 
     <main>
         <fieldset>
@@ -33,22 +32,22 @@
 
         <article>
             <form action="mailto:ahmedgoloba@icloud.com">
-                <div>
-                    <label for="name">Name:
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <div>
+                        <label for="name">Name:</label>
                         <input type="text" name="name" id="name">
-                    </label>
-                </div>
-                <div>
-                    <label for="email">Email:
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
                         <input type="email" name="email" id="email">
-                    </label>
-                </div>
-                <div>
-                    <label>Message:</label>
-                    <br>
-                    <textarea name="comments" rows="12" cols="35"></textarea>
-                </div>
-                <input type="submit" name="submit" value="Send">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="12" cols="35"></textarea>
+                    </div>
+                    <button>Send</button>
+                </fieldset>
             </form>
         </article>
     </main>

@@ -177,3 +177,39 @@ fieldset {
 legend {
     font-size: x-large;
 }
+
+label {
+    font-size: 1.3rem;
+}
+
+input {
+    width: 70%;
+}
+
+textarea {
+    width: 88%;
+}
+
+fieldset div {
+    margin-top: 1.5rem;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6F58C9;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: scale 1s;
+}
+
+button:hover {
+    scale: 120%;
+}
