@@ -142,9 +142,9 @@ button {
     color: white;
     font-weight: 600;
     cursor: pointer;
-    transition: scale 1s;
+    transition: transform 1s;
 }
 
 button:hover {
-    scale: 120%;
+    transform: scale(1.2);
 }

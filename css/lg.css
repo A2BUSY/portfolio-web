@@ -155,7 +155,7 @@ h4 + ul {
 /* Site Report */
 #container {
     display: grid;
-    grid-template-columns: repeat(3, auto-fit);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: auto auto;
     gap: 3rem;
     max-width: 100%;

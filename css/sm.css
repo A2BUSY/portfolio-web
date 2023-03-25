@@ -62,8 +62,8 @@ nav {
 .home-grid-container {
     display: grid;
     margin-top: 4rem;
-    grid-template-columns: 1;
-    grid-template-rows: repeat(3, auto-fit);
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
     align-items: center;
     justify-items: center;
 }
@@ -119,7 +119,7 @@ nav {
 /* Portfolio */
 #projects {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: auto;
     max-width: 100%;
     gap: 3rem;
 }
