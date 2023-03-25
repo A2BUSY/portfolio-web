@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@500&display=swap');
-@import "lg.css" screen and (min-width: 800px);
-@import "sm.css" screen and (max-width: 800px);
+@import "lg.css" screen and (min-width: 1250px);
+@import "sm.css" screen and (max-width: 1250px);
 
 body {
     background-size: cover;

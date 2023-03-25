@@ -115,3 +115,36 @@ nav {
     font-size: 1.6rem;
     text-align: center;
 }
+
+/* Portfolio */
+#projects {
+    display: grid;
+    grid-template-columns: 1;
+    max-width: 100%;
+    gap: 3rem;
+}
+
+.project img {
+    width: 100%;
+}
+.project {
+    border: 1px solid #E3EDF2;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.skills {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    gap: 1rem;
+}
+
+.skills li {
+    border: 1px solid;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}

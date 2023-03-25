@@ -7,10 +7,10 @@
 nav {
     margin-top: 1rem;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     background-color: #b5bec6;
     border-radius: 0.5rem;
+    width: 100%;
 }
 
 nav a {
