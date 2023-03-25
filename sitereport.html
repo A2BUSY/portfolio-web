@@ -38,19 +38,26 @@
 
             <article>
                 <h2 class="text-highlight">Design Decisions</h2>
+                <h3>Where Design influences came from</h3>
                 I explored colour palettes on <a href="https://coolors.co/" class="text-highlight">coolors.co</a> and
                 found the current colour scheme there. I was going for a dark neon theme, I implemented this by creating
                 the
                 'text-highlight' class. I found the 'Red Hat Mono' font by
                 looking through google fonts and seeing which one I liked the most.
+                <h3>Creating the Index Name Animation</h3>
+                First, I used a fading transition from a lighter purple, to a darker purple. This is still used in this
+                page, under the class "text-highlight". Then I decided to use a 3D glitch effect, having inspiration
+                from <a href="https://codepen.io/longfurbyqueen/pen/YLdVjw" class="text-highlight">here</a>. To create a similar effect, I decided to use a ::before and ::after pseudoelement. I created
+                animations to move them slightly towards the original word, so it will have a cool seperating effect.
             </article>
 
             <article>
                 <h2 class="text-highlight">Development Log</h2>
-                <div id="temp">
+                <div id="dev-log">
                     <div class="log-item">
                         <h3>12/03/23</h3>
-                        <p>I created a base index.html and set up my personal access token for authentication. I also added
+                        <p>I created a base index.html and set up my personal access token for authentication. I also
+                            added
                             a
                             navbar
                             and main section to the index.html.</p>
@@ -58,9 +65,11 @@
                     </div>
                     <div class="log-item">
                         <h3>15/03/23</h3>
-                        <p>I created a base portfolio.html, it followed the same layout as index.html with the navbar being
+                        <p>I created a base portfolio.html, it followed the same layout as index.html with the navbar
+                            being
                             at
-                            the top and then the main content following. I've decided that every webpage will follow this
+                            the top and then the main content following. I've decided that every webpage will follow
+                            this
                             structure and only the main content will be different.</p>
                         <img src="images/image2.png" alt="code snippet">
                     </div>
@@ -76,7 +85,8 @@
                     </div>
                     <div class="log-item">
                         <h3>19/03/23</h3>
-                        <p>I created the base for the site report page. I also decided to add a h1 element to each webpage
+                        <p>I created the base for the site report page. I also decided to add a h1 element to each
+                            webpage
                             to
                             give it a more visual title.
                         </p>
@@ -88,7 +98,8 @@
                             validate
                             my code. I then fixed every error that was found in the html.
                         </p>
-                        <p>I also styled the navabr and decided to start thinking about responsivity. I did this by adding
+                        <p>I also styled the navabr and decided to start thinking about responsivity. I did this by
+                            adding
                             an
                             import statement that would only run on large screen sizes.
                         </p>
@@ -106,7 +117,8 @@
                             I then created an animation for highlighted text.
                         </p>
                         <img src="images/image3.png" alt="code snippet">
-                        <p>I then styled the contact info and form sections. After completing this I merged the branch with
+                        <p>I then styled the contact info and form sections. After completing this I merged the branch
+                            with
                             master.
                             I then created a new branch called portfolio-styles and then styled the portfolio page.
                         </p>
