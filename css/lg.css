@@ -103,62 +103,6 @@ nav a:last-child {
     animation: highlight-pseudo-red 8s linear 0ms infinite both;
 }
 
-@keyframes highlight-pseudo-blue {
-    from {
-        color: #261dce;
-    }
-
-    35% {
-        color: transparent;
-        transform: translate(7px, 7px);
-    }
-
-    65% {
-        color: transparent
-    }
-
-    to {
-        color: #261dce;
-    }
-}
-
-@keyframes highlight-pseudo-red {
-    from {
-        color: #b51717;
-    }
-
-    35% {
-        color: transparent;
-        transform: translate(-7px, -7px);
-    }
-
-    65% {
-        color: transparent;
-    }
-
-    to {
-        color: #b51717;
-    }
-}
-
-@keyframes highlight-main {
-    from {
-        color: transparent;
-    }
-
-    25% {
-        color: #815eaa
-    }
-
-    75% {
-        color: #815eaa
-    }
-
-    to {
-        color: transparent;
-    }
-}
-
 /* Contact page */
 fieldset {
     width: min(480px, 80%);
