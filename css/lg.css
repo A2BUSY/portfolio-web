@@ -244,5 +244,23 @@ button:hover {
     border-radius: 20px;
 }
 /* Experience */
+#works {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+}
 
+.work {
+    border: 1px solid #E3EDF2;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.work p {
+    word-spacing: 4px;
+}
+
+h4 + ul {
+    list-style: square;
+}
 /* Site Report */
