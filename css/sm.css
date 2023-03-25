@@ -70,12 +70,12 @@ nav {
 
 #home-introduction {
     color: #E3EDF2;
-    font-size: 4rem;
+    font-size: 3rem;
     grid-row-start: 1;
 }
 
 #home-my-name {
-    font-size: 12rem;
+    font-size: 8rem;
     grid-row-start: 2;
 }
 
@@ -108,7 +108,7 @@ nav {
 }
 
 #home-image {
-    height: 80%;
+    height: 70%;
 }
 
 #home-description {
