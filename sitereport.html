@@ -48,8 +48,16 @@
                 <h3>Creating the Index Name Animation</h3>
                 First, I used a fading transition from a lighter purple, to a darker purple. This is still used in this
                 page, under the class "text-highlight". Then I decided to use a 3D glitch effect, having inspiration
-                from <a href="https://codepen.io/longfurbyqueen/pen/YLdVjw" class="text-highlight">here</a>. To create a similar effect, I decided to use a ::before and ::after pseudoelement. I created
+                from <a href="https://codepen.io/longfurbyqueen/pen/YLdVjw" class="text-highlight">here</a>. To create a
+                similar effect, I decided to use a ::before and ::after pseudoelement. I created
                 animations to move them slightly towards the original word, so it will have a cool seperating effect.
+                <h3>Creating the Navigation Bar</h3>
+                My first step was to create the HTML for the bar. Originally the hamburger menu was a link, however this
+                would not work when i clicked it. I did some research and decided to use a checkbox, as it would work
+                the same. Then I used the :focus selector to check if it was selected, and change the navbar display
+                from none to flex. This means it would show when the checkbox was clicked. To style it like a hamburger
+                menu, I used a pseudoelement and gave it content "≡". I also made animation on hover, using transition
+                to slowly highlight, instead of instantly.
             </article>
 
             <article>
@@ -122,6 +130,19 @@
                             with
                             master.
                             I then created a new branch called portfolio-styles and then styled the portfolio page.
+                        </p>
+                    </div>
+                    <div class="log-item">
+                        <h3>25/03/23</h3>
+                        <p>I created a branch called experience-styles and styled the work experience page. After
+                            completing this I merged the branch with master.
+                            I then went on to create a branch called sitereport-styles and styled the siterport page.
+                        </p>
+                        <p>I then created a new branch called responsive styles, here I worked on the responsitivity of
+                            the website on smaller screens.
+                            After completing the styles, I then validated all the css files using this <a
+                                href="https://jigsaw.w3.org/css-validator/" class="text-highlight">css validator</a> and
+                            fixed all errors.
                         </p>
                     </div>
                 </div>
