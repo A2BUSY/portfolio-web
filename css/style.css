@@ -9,6 +9,10 @@ body {
     color: #E3EDF2;
 }
 
+main {
+    padding: 1em;
+}
+
 .text-highlight {
     color: #6F58C9;
     animation: highlight 8s linear 0ms infinite both;
@@ -88,4 +92,59 @@ body {
     to {
         color: transparent;
     }
+}
+
+/* Contact */
+fieldset {
+    width: min(480px, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #E3EDF2;
+    color: #E3EDF2;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+legend {
+    font-size: x-large;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input {
+    width: 70%;
+}
+
+textarea {
+    width: 88%;
+}
+
+fieldset div {
+    margin-top: 1.5rem;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6F58C9;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: scale 1s;
+}
+
+button:hover {
+    scale: 120%;
 }
